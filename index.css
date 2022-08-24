@@ -6,8 +6,29 @@
 
 #github-container {
   display: flex;
+  flex-direction: column;
 }
 
 ul {
   list-style: none;
+}
+
+#user-list li {
+  margin-top: 20px;
+}
+#user-list h2 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#user-list li img {
+  width: 12rem;
+  margin: auto;
+  display: block;
+  border-right-style: outset;
+  border-color: red;
+}
+#user-list li a {
+  text-align: center;
+  display: block;
 }
